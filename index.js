@@ -1,11 +1,19 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const newpal=word.toLowerCase();
+  const charachters=newpal.split('');
+  const inverseWord=charachters.reverse();
+  const bind=inverseWord.join('')
+  const latepal=bind;
+  if(newpal===latepal){
+    return true;
+  }else{
+    return false;
+  }
+
 }
 
-/* 
-  Add your pseudocode here
-*/
 
+ 
 /*
   Add written explanation of your solution here
 */
